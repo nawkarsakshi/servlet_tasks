@@ -18,12 +18,10 @@ public class Login extends HttpServlet {
         out.print("<title>Login Form</title>");
         out.print("</head>");
         out.print("<body>");
-        out.print("<form>");
-        out.print("Enter Name:<input type='text' name='name'>");
+        out.print("<form action='next'>");
+        out.print("Enter Username:<input type='text' name='name'>");
         out.print("<br/><br/>");
-        out.print("Enter Year:<input type='number' name='year'>");
-        out.print("<br/><br/>");
-        out.print("Enter Department:<input type='text' name='dept'>");
+        out.print("Enter Password:<input type='password' name='pass'>");
         out.print("<br/><br/>");
         out.print("<button type='submit'>Login</button>");
         out.print("</form>");
